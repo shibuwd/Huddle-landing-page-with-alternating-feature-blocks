@@ -62,13 +62,12 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-size: 112%;
+    background-size: 115%;
     margin-bottom: 2.5rem;
 }
 nav .nav-container {
     margin: 1rem;
     display: flex;
-    align-content: space-between;
     gap: 5rem;
 }
 .nav-container img {
@@ -245,7 +244,7 @@ section .card-4 .cta {
     padding: 2rem 0;
 }
 .all-links a {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .useful-links li {
     margin-bottom: 1.5rem;
@@ -279,5 +278,92 @@ section .card-4 .cta {
     text-align: center;
     font-size: .7rem;
     color: white;
+    margin-top: 2rem;
 }
 /* end footer section */
+
+/* media query */
+@media only screen and (min-width: 320px) {
+    nav .nav-container {
+        gap: 2rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    nav .nav-container {
+        gap: 26rem;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    nav .nav-container {
+        gap: 40rem;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .hero-info {
+        flex: 65%;
+    }
+    .card-container {
+        padding: 0 2.5rem;
+    }
+    .card-container .card-heading {
+        text-align: left;
+        padding: 0 4rem;
+    }
+    .card-container .para {
+        text-align: left;
+        padding: 0 4rem;
+    }
+    .card:nth-child(odd) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .card:nth-child(2) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section .card-4 {
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 7px 0px hsla(180, 7%, 14%, 0.192);
+        box-shadow: 0px 0px 7px 0px hsla(180, 7%, 14%, 0.192);
+        text-align: center;
+        width: 50%;
+        border-radius: .5rem;
+        margin-left: 30%;
+    }
+    .footer-container {
+        padding: 0 2rem;
+    }
+    .all-info {
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-info {
+        flex: 35%;
+        margin-top: 0;
+        padding-right: 1.5rem;
+        
+    }
+    .all-links {
+        display: flex;
+        justify-content: space-between;
+        flex: 35%;
+        padding: 0 1.2rem;
+        
+    }
+    .social-icons {
+        flex: 25%;
+        padding: 0 1.5rem;
+    }
+    .copyright {
+        margin-top: 5rem;
+    }
+
+}
