@@ -295,13 +295,26 @@ section .card-4 .cta {
 }
 
 @media only screen and (min-width: 1050px) {
+    h1 {
+        text-align: left;
+    }
+    .hero p {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        /* margin-top: .8rem; */
+        margin:  1.6rem;
+    }
+    .cta {
+        margin: 2.7rem;
+    }
     nav .nav-container {
-        gap: 40rem;
+        gap: 46rem;
     }
     .hero {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
         flex-direction: row;
     }
     .hero-info {
@@ -349,21 +362,24 @@ section .card-4 .cta {
         flex: 35%;
         margin-top: 0;
         padding-right: 1.5rem;
-        
     }
     .all-links {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex: 35%;
-        padding: 0 1.2rem;
-        
+        padding: 0 1.2rem;   
     }
     .social-icons {
         flex: 25%;
         padding: 0 1.5rem;
     }
     .copyright {
-        margin-top: 5rem;
+        margin-top: 4.5rem;
     }
+}
 
+@media only screen and (min-width: 1366px) {
+    nav .nav-container {
+        gap: 55rem;
+    }
 }
