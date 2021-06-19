@@ -132,7 +132,7 @@ main .cards {
     flex-direction: column;
     margin: 1rem;
 }
-main .card {
+.card {
     background-color: rgb(255, 255, 255);
     margin-top: 2rem;
     border-radius: .5rem;
@@ -357,7 +357,25 @@ section .card-4 .cta {
        padding: 0 5rem;
        margin-top: 1rem;
    }
-    .card:nth-child(odd) {
+   .card-item-1 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row-reverse;
+   }
+   .card-item-2 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+   }
+   .card-item-3 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row-reverse;
+   }
+    /* .card:nth-child(odd) {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -368,7 +386,7 @@ section .card-4 .cta {
         align-items: center;
         justify-content: center;
         flex-direction: row;
-    }
+    } */
     section .card-4 {
         background-color: white;
         -webkit-box-shadow: 0px 0px 7px 0px hsla(180, 7%, 14%, 0.192);
