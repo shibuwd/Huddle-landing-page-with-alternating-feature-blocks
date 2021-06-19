@@ -400,14 +400,18 @@ section .card-4 .cta {
         width: 60%;
         border-radius: .5rem;
         margin-left: 20%;
-        padding: 1.5rem 0;
+        padding: 1.8rem 0;
     }
     .footer-container {
-        padding: 3rem 2rem;
+        padding: 3.5rem 1rem;
     }
     .all-info {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
+        padding-top: 2rem;
+        margin: 0 auto;
     }
     .contact-info {
         flex: 35%;
@@ -445,7 +449,7 @@ section .card-4 .cta {
         gap: 58rem;
     }
     section .card-4 {
-        margin-left: 30%;
+        margin-left: 20%;
     }
     }
 
