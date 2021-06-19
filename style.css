@@ -110,7 +110,7 @@ nav .nav-container {
     display: inline-block;
     font-size: .8rem;
     transition: 0.5s cubic-bezier(0, 0.55, 0.45, 1);
-    margin-left: 3.4rem;
+    margin-left: .4rem;
 }
 .cta:hover {
     opacity: .7;
@@ -325,8 +325,7 @@ section .card-4 .cta {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 28rem;
-    
+        gap: 28rem; 
     }
     .hero {
         display: flex;
@@ -366,12 +365,13 @@ section .card-4 .cta {
 }
    .card .card-content h3 {
        text-align: left;
-       padding: 0 5rem;
+       padding: 0 3rem;
        margin-top: 1rem;
+       font-size: 1.6rem;
    }
    .card .card-content p {
        text-align: left;
-       padding: 0 5rem;
+       padding: 0 3rem;
        margin-top: 1rem;
    }
    .card-item-1 {
@@ -397,12 +397,13 @@ section .card-4 .cta {
         -webkit-box-shadow: 0px 0px 7px 0px hsla(180, 7%, 14%, 0.192);
         box-shadow: 0px 0px 7px 0px hsla(180, 7%, 14%, 0.192);
         text-align: center;
-        width: 40%;
+        width: 60%;
         border-radius: .5rem;
-        margin-left: 30%;
+        margin-left: 20%;
+        padding: 1.5rem 0;
     }
     .footer-container {
-        padding: 0 2rem;
+        padding: 3rem 2rem;
     }
     .all-info {
         display: flex;
@@ -436,7 +437,7 @@ section .card-4 .cta {
         gap: 55rem;
     }
     section .card-4 {
-        margin-left: 29%;
+        margin-left: 20%;
     }
 }
 @media only screen and (min-width: 1440px) {
