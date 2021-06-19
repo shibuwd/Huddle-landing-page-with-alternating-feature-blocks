@@ -33,8 +33,6 @@ h1, h2, h3, h4, h5 ,h6 {
 img {
     max-width: 100%;
     height: auto;
-     /* display: block;
-     width: 100%; */
 }
 
 a {
@@ -44,12 +42,6 @@ a {
 li {
     list-style: none;
 }
-
-/* .container {
-    max-width: 1440px;
-    width: 90%;
-    margin: 0 auto;
-} */
 
 /* hero section */
 .hero-container {
@@ -293,7 +285,6 @@ section .card-4 .cta {
         gap: 26rem;
     }
 }
-
 @media only screen and (min-width: 1050px) {
     .hero-container {
         background-color: var(--very-pale-cyan);
@@ -391,7 +382,6 @@ section .card-4 .cta {
         margin-top: 4.5rem;
     }
 }
-
 @media only screen and (min-width: 1366px) {
     nav .nav-container {
         gap: 55rem;
@@ -400,7 +390,6 @@ section .card-4 .cta {
         margin-left: 25%;
     }
 }
-
 @media only screen and (min-width: 1440px) {
     nav .nav-container {
         gap: 58rem;
@@ -409,3 +398,4 @@ section .card-4 .cta {
         margin-left: 25%;
     }
 }
+/* end media query */
