@@ -305,6 +305,8 @@ section .card-4 .cta {
     }
     .hero h1 {
         text-align: left;
+        font-size: 1.6rem;
+        /* padding-right: 15rem; */
     }
     .hero p {
         text-align: left;
@@ -313,6 +315,7 @@ section .card-4 .cta {
     }
     nav .nav-container {
         gap: 28rem;
+        flex: 1 0 45%;
     }
     .hero {
         display: flex;
@@ -321,11 +324,17 @@ section .card-4 .cta {
         flex-direction: row;
     }
     .hero-info {
-        flex: 80%;
+        flex: 1  0 40%;
         padding: 0 1.2rem;
     }
-    .card-container {
-        padding: 0 2.5rem;
+   
+    .card img  {
+        flex: 1 0 40%;
+        padding: 2rem;
+    }
+    .card-content {
+        flex: 1 0 50%;
+        padding: 2rem;
     }
     .card-container .card-heading {
         text-align: left;
