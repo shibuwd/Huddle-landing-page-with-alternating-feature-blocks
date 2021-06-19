@@ -30,10 +30,15 @@ h1, h2, h3, h4, h5 ,h6 {
     font-weight: 700;
 }
 
-img {
+/* img {
     max-width: 100%;
-    height: auto;
-}
+    height: 100%;
+} */
+
+  img {
+       display: block;
+       width: 100%;
+   }
 
 a {
     text-decoration: none;
@@ -42,7 +47,6 @@ a {
 li {
     list-style: none;
 }
-
 /* hero section */
 .hero-container {
     background-color: var(--very-pale-cyan);
@@ -289,7 +293,7 @@ section .card-4 .cta {
         gap: 26rem;
     }
 }
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 900px) {
     .hero-container {
         background-color: var(--very-pale-cyan);
         background-image: url(./img/bg-hero-desktop.svg);
@@ -306,7 +310,6 @@ section .card-4 .cta {
     .hero h1 {
         text-align: left;
         font-size: 1.6rem;
-        /* padding-right: 15rem; */
     }
     .hero p {
         text-align: left;
@@ -314,8 +317,11 @@ section .card-4 .cta {
         line-height: 1.5rem;
     }
     nav .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 28rem;
-        flex: 1 0 45%;
+    
     }
     .hero {
         display: flex;
@@ -327,23 +333,26 @@ section .card-4 .cta {
         flex: 1  0 40%;
         padding: 0 1.2rem;
     }
-   
-    .card img  {
-        flex: 1 0 40%;
-        padding: 2rem;
-    }
-    .card-content {
-        flex: 1 0 50%;
-        padding: 2rem;
-    }
-    .card-container .card-heading {
-        text-align: left;
-        padding: 0 4rem;
-    }
-    .card-container .para {
-        text-align: left;
-        padding: 0 4rem;
-    }
+   .card {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .card img {
+       display: block;
+       width: 100%;
+       padding: 2.5rem 2rem;
+   }
+   .card .card-content h3 {
+       text-align: left;
+       padding: 0 5rem;
+       margin-top: 1rem;
+   }
+   .card .card-content p {
+       text-align: left;
+       padding: 0 5rem;
+       margin-top: 1rem;
+   }
     .card:nth-child(odd) {
         display: flex;
         align-items: center;
@@ -379,7 +388,7 @@ section .card-4 .cta {
     .all-links {
         display: flex;
         justify-content: space-around;
-        flex: 35%;
+        flex: 45%;
         padding: 0 1.2rem;   
     }
     .social-icons {
@@ -409,5 +418,6 @@ section .card-4 .cta {
     section .card-4 {
         margin-left: 30%;
     }
-}
+    }
+
 /* end media query */
