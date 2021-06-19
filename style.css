@@ -295,21 +295,35 @@ section .card-4 .cta {
 }
 
 @media only screen and (min-width: 1050px) {
-    h1 {
+    .hero-container {
+        background-color: var(--very-pale-cyan);
+        background-image: url(./img/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60% -50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-size: 109%;
+        margin-bottom: 2.5rem;
+    }
+    .hero h1 {
         text-align: left;
+        margin: 2.5rem;
     }
     .hero p {
         text-align: left;
         font-size: 1rem;
         line-height: 1.5rem;
-        /* margin-top: .8rem; */
-        margin:  1.6rem;
+        padding-right: .1rem;
+        margin:  2.6rem;
     }
     .cta {
-        margin: 2.7rem;
+        margin: 2.6rem;
     }
     nav .nav-container {
-        gap: 46rem;
+        gap: 40rem;
     }
     .hero {
         display: flex;
@@ -318,7 +332,7 @@ section .card-4 .cta {
         flex-direction: row;
     }
     .hero-info {
-        flex: 65%;
+        flex: 45%;
     }
     .card-container {
         padding: 0 2.5rem;
@@ -381,5 +395,17 @@ section .card-4 .cta {
 @media only screen and (min-width: 1366px) {
     nav .nav-container {
         gap: 55rem;
+    }
+    section .card-4 {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    nav .nav-container {
+        gap: 58rem;
+    }
+    section .card-4 {
+        margin-left: 25%;
     }
 }
